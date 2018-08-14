@@ -1,0 +1,27 @@
+{
+  "name": "bootcamp-web-server",
+  "version": "1.0.0",
+  "description": "\"Instagram\" like application API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./server.js",
+    "start": "babel-node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.5"
+  }
+}
