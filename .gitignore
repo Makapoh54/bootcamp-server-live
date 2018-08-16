@@ -8,6 +8,5 @@ node_modules
 logs/
 yarn.lock
 .env
-uploads/images/*
+uploads/*
 data/*
-!./uploads/images/.gitkeep
