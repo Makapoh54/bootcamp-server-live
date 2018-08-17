@@ -53,6 +53,6 @@ app.use(defaultErrorHandler);
 const host = process.env.HOST_ADDRESS;
 const port = process.env.HOST_PORT;
 
-app.listen(port, host, () => {
+app.listen(process.env.PORT || port, () => {
   console.log('ABC');
 });
