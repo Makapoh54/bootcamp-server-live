@@ -46,6 +46,8 @@ app.use(`/api/v${process.env.API_VERSION}`, index);
 app.use(`/api/v${process.env.API_VERSION}`, user);
 app.use(`/api/v${process.env.API_VERSION}`, media);
 
+app.use(`/api/v${process.env.API_VERSION}/uploads`, express.static('uploads'));
+
 app.use(defaultErrorHandler);
 
 const host = process.env.HOST_ADDRESS;
